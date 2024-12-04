@@ -9,10 +9,10 @@ function App() {
 		<>
 			<Navbar />
 			<Hero />
-			<div className='grid  grid-cols-1 md:grid-cols-3 w-full p-4 items-center justify-center gap-4'>
-				<Cards />
-				<Cards />
-				<Cards />
+			<div className='grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full p-4 items-center justify-center gap-4'>
+				<Cards type='advisor' />
+				<Cards type='donation' />
+				<Cards type='forum' />
 			</div>
 			<Footer />
 		</>

@@ -11,12 +11,11 @@ const Hero = () => {
 			</h1>
 			<p className='text-lg mb-8'>
 				Sustainable crops and smarter farming, one prediction at a time.
+				<br /> Food camps and a Farmers Forum.
 			</p>
 			<div className='flex justify-center gap-4'>
-				<button className='btn btn-primary text-primary-content'>
-					Get Started
-				</button>
-				<button className='btn btn-primary'>Learn More</button>
+				<button className='btn btn-primary text-white'>Get Started</button>
+				<button className='btn btn-primary text-white'>Learn More</button>
 			</div>
 		</section>
 	);
